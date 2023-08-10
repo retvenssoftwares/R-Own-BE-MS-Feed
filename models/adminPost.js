@@ -9,7 +9,7 @@ const postSchema = new mongoose.Schema({
   adminpostId: {type: String, default: shortid.generate},
       adminStatus:{
             type:String,
-            default:""
+            default:"true"
           },
   date_added: {
     type: String,
